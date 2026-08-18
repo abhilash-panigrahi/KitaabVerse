@@ -26,6 +26,10 @@ Each service owns its own Postgres database; they only talk over REST (via the g
 - **Spotless** — enforced code formatting
 - **[Task](https://taskfile.dev)** — command runner for common workflows
 
+## Architecture
+
+
+
 ## Run it
 
 ```bash
