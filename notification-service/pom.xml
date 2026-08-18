@@ -22,7 +22,7 @@
     <properties>
         <java.version>25</java.version>
         <spotless-maven-plugin.version>3.8.0</spotless-maven-plugin.version>
-        <dockerImageName>abhilash-panigrahi/bookstore-${project.artifactId}</dockerImageName>
+        <dockerImageName>abhilashpanigrahi/bookstore-${project.artifactId}</dockerImageName>
     </properties>
 
     <dependencies>
