@@ -28,7 +28,7 @@ Each service owns its own Postgres database; they only talk over REST (via the g
 
 ## Architecture
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/37e8421e-c4f9-4383-b544-5725680a1ab6" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/76b95ca5-b933-46d9-af7e-58252f077ac6" />
 
 ## Run it
 
