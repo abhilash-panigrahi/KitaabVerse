@@ -1,6 +1,6 @@
 # KitaabVerse 
 
-A Spring Boot microservices bookstore — catalog, orders, notifications, and a webapp, all behind a gateway.
+A Spring Boot microservices project for an online bookstore — split into independently deployable services communicating over REST and messaging, secured with OAuth2/OIDC, and backed by full observability tooling.
 
 ## Services
 
@@ -14,9 +14,17 @@ A Spring Boot microservices bookstore — catalog, orders, notifications, and a 
 
 Each service owns its own Postgres database; they only talk over REST (via the gateway) and RabbitMQ.
 
-## Stack
-
-Java 21 · Spring Boot 3 · Spring Data JPA · Spring Cloud Gateway · Spring Security (OAuth2) · PostgreSQL · RabbitMQ · Keycloak · Thymeleaf · Alpine.js · Bootstrap · Testcontainers · Prometheus/Loki/Tempo/Grafana
+## Tech stack
+ 
+- **Java 25** / **Spring Boot 3** with **Spring Cloud Gateway**
+- **PostgreSQL 18** — one database per service
+- **RabbitMQ** — async order events
+- **Keycloak** — OAuth2/OIDC authentication
+- **MailHog** — catches dev email
+- **Prometheus, Loki, Tempo, Grafana, Promtail** — metrics, logs, tracing
+- **Testcontainers + JUnit 5** — integration tests against real containers
+- **Spotless** — enforced code formatting
+- **[Task](https://taskfile.dev)** — command runner for common workflows
 
 ## Run it
 
