@@ -1,0 +1,2 @@
+KitaabVerse is a microservices-based e-commerce bookstore application with a product catalog, order management, event-driven notifications, an API gateway, and a customer-facing web app, simulating a real-world distributed system architecture.
+Tech Stack: Java 21, Spring Boot, Spring Data JPA, Spring Security (OAuth2), Spring Cloud Gateway, PostgreSQL, RabbitMQ, Keycloak, Thymeleaf, Alpine.js, Bootstrap
