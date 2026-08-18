@@ -23,8 +23,6 @@ Each service owns its own Postgres database; they only talk over REST (via the g
 - **MailHog** — catches dev email
 - **Prometheus, Loki, Tempo, Grafana, Promtail** — metrics, logs, tracing
 - **Testcontainers + JUnit 5** — integration tests against real containers
-- **Spotless** — enforced code formatting
-- **[Task](https://taskfile.dev)** — command runner for common workflows
 
 ## Architecture
 
