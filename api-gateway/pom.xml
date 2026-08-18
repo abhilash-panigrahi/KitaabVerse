@@ -12,7 +12,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.sivalabs.bookstore</groupId>
+    <groupId>com.abhilashpanigrahi.bookstore</groupId>
     <artifactId>api-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
@@ -24,7 +24,7 @@
         <spring-cloud.version>2025.1.2</spring-cloud.version>
         <springdoc-openapi.version>3.0.3</springdoc-openapi.version>
         <spotless-maven-plugin.version>3.8.0</spotless-maven-plugin.version>
-        <dockerImageName>sivaprasadreddy/bookstore-${project.artifactId}</dockerImageName>
+        <dockerImageName>abhilashpanigrahi/bookstore-${project.artifactId}</dockerImageName>
     </properties>
 
     <dependencies>

@@ -12,7 +12,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.sivalabs</groupId>
+    <groupId>com.abhilashpanigrahi</groupId>
     <artifactId>notification-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
@@ -22,7 +22,7 @@
     <properties>
         <java.version>25</java.version>
         <spotless-maven-plugin.version>3.8.0</spotless-maven-plugin.version>
-        <dockerImageName>sivaprasadreddy/bookstore-${project.artifactId}</dockerImageName>
+        <dockerImageName>abhilashpanigrahi/bookstore-${project.artifactId}</dockerImageName>
     </properties>
 
     <dependencies>

@@ -83,7 +83,7 @@ $ task --version
 
 ```shell
 # Clone the repository: 
-$ git clone https://github.com/sivaprasadreddy/spring-boot-microservices-course.git
+$ git clone https://github.com/abhilash-panigrahi/KitaabVerse.git
 $ cd spring-boot-microservices-course
 ```
 
