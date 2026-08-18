@@ -16,7 +16,11 @@ Each service owns its own Postgres database; they only talk over REST (via the g
 
 ## Tech stack
  
-- **Java 25** / **Spring Boot 3** with **Spring Cloud Gateway**
+- **Java 25**
+- **Spring Boot 3**
+- **Spring Security (OAuth2)**
+- **Spring Cloud Gateway**
+- **Spring Data JPA**
 - **PostgreSQL 18** — one database per service
 - **RabbitMQ** — async order events
 - **Keycloak** — OAuth2/OIDC authentication
